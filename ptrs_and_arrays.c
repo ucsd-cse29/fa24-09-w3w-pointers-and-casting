@@ -16,8 +16,8 @@ int main() {
   printf("ff_str[0] (as one byte hex): 0x%hhx\n", ff_arr[0]);
 
   printf("ff_char_ptr (as pointer): %p\n", &ff_char);
-  printf("ff_arr (as pointer): %p\n", ff_str);
-  printf("ff_str (as pointer): %p\n", ff_arr);
+  printf("ff_arr (as pointer): %p\n", ff_arr);
+  printf("ff_str (as pointer): %p\n", ff_str);
 
   return 0;
 }
