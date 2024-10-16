@@ -9,15 +9,15 @@ int main() {
   char ff_str[] = "ff";
 
   printf("ff_char (as one byte hex): 0x%hhx\n", ff_char);
-  printf("*ff_char_ptr (as one byte hex): 0x%hhx\n", ff_char_ptr);
+  printf("ff_char_ptr (as one byte hex): 0x%hhx\n", ff_char_ptr);
   printf("ff_arr (as one byte hex): 0x%hhx\n", ff_str);
   printf("ff_str (as one byte hex): 0x%hhx\n", ff_arr);
   printf("ff_arr[0] (as one byte hex): 0x%hhx\n", ff_str[0]);
   printf("ff_str[0] (as one byte hex): 0x%hhx\n", ff_arr[0]);
 
-  printf("ff_char_ptr (as pointer): 0x%p\n", &ff_char);
-  printf("ff_arr (as pointer): 0x%p\n", ff_str);
-  printf("ff_str (as pointer): 0x%p\n", ff_arr);
+  printf("ff_char_ptr (as pointer): %p\n", &ff_char);
+  printf("ff_arr (as pointer): %p\n", ff_str);
+  printf("ff_str (as pointer): %p\n", ff_arr);
 
   return 0;
 }
